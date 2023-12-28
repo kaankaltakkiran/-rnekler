@@ -1,8 +1,8 @@
-﻿# Login And Register
+﻿# Login And Register with password hash 
 
  ## Php ile kullanıcı üye olma ve giriş yapma işlemlerini içermektedir. Kullanıcı siteye üye olurken parolası hashlenmektedir.
 
-## password_hash ve password_verify
+### password_hash ve password_verify
  [password_hash](https://www.php.net/manual/en/function.password-hash.php)
  ```php
 password_hash(string $password, string|int|null $algo, array $options = []): string
@@ -20,5 +20,9 @@ password_verify(string $password, string $hash): bool
 - [X] Kullanıma hazır.
 
 ## Kullanıcı Bilgileri
-Normal kullanıcı= email= ahmet@gmail.com password= 123
-Admin kullanıcısı= email= admin@gmail.com password= admin
+
+
+| Users               |Email                          |Password                         |
+|----------------|-------------------------------|-----------------------------|
+|User Ahmet          |`ahmet@gmail.com`                     |`123`           |
+|Admin               |`veli@gmail.com`                     |`admin`
