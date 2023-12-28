@@ -3,6 +3,8 @@
  ## **Recaptcha**  insan kullanıcıları botlardan ayırarak, web sitelerini spam ve kötüye kullanımdan korur.
 
 ### **Recaptcha** nasıl kullanılır?
+Kaynak: https://davisonpro.dev/php-recaptcha/
+
 Recaptcha kullanmak için önce https://www.google.com/recaptcha/admin/create linkinden api key almak için gerekli bilgileri giriyoruz.
 
 ![Screenshot_4](https://github.com/kaankaltakkiran/ornekler/assets/98158194/d71cad41-5664-4117-b5ca-bb9a2a9b0c80)
