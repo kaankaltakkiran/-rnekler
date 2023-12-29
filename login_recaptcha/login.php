@@ -37,6 +37,7 @@ if (isset($_POST['form_email'])) {
           </div>
           ';
     } else {
+        //! aldığımız secretkey'i secret alanına yapıştırıyoruz
         $secret = '6Lfj4z4pAAAAAJ4uMc2gOLsUJmn4BRGkmS5pgGT6';
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
@@ -133,6 +134,7 @@ INCORRECT EMAIL Or PASSWORD!...
   <span class="input-group-text bg-transparent"><i id="togglePassword" class="bi bi-eye-slash"></i></span>
 </div>
 <div class="form-floating mb-3">
+  //! aldığımız sitekey'i data-sitekey alanına yapıştırıyoruz
 <div class="g-recaptcha" data-sitekey="6Lfj4z4pAAAAAIF5lNvjBmZh39iGikjsVVKCE0Tc"></div>
 </div>
 
