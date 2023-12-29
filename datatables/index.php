@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row">
 
-
+<h1 class="text-danger text-center mt-3  ">Bootstrap 5 DataTables example</h1>
   <table id="example" class="table table-striped" style="width:100%">
   <thead>
       <tr>
@@ -512,28 +512,15 @@
 <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.colVis.min.js"></script>
 <script>
-  //! Datatablestaki export butonlarının düzenlenmesi
-$(document).ready(function() {
+  $(document).ready(function() {
     var table = $('#example').DataTable( {
         lengthChange: false,
-        dom: 'lBfrtip',
-        buttons: {
-        buttons: [
-          { extend: 'pageLength', className: 'btn-primary mt-3'},
-            { extend: 'copy', className: 'btn btn-dark mt-3'},
-            { extend: 'excel', className: 'btn btn-success mt-3'},
-            { extend: 'csv', className: 'btn btn-danger mt-3' },
-            { extend: 'pdf', className: 'btn btn-warning mt-3' },
-            { extend: 'print', className: 'btn btn-secondary mt-3' },
-            { extend: 'colvis', className: 'btn btn-info mt-3' }
-        ]
-      }
+        buttons: [ 'copy', 'excel', 'pdf', 'colvis' ]
     } );
 
     table.buttons().container()
         .appendTo( '#example_wrapper .col-md-6:eq(0)' );
 } );
-/* buttons: [ 'copy', 'excel','csv', 'pdf', 'colvis' ] */
 </script>
   </body>
 </html>
