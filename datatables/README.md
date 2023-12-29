@@ -5,4 +5,5 @@ Datatables bize hem görünüm açısından hemde kullanım açısından kolayl�
 
 Bu örnekte tablonun excel,cvs,pdf türünde export alabiliyoruz. İstersek kolayca tabloyu kopyalayabiliyoruz,yazdırabiliyoruz ve istediğimiz sütunu görebiliyoruz.
 
-![Screenshot_1](https://github.com/kaankaltakkiran/ornekler/assets/98158194/cef641d7-ba30-41a7-b6f2-53cb66b3950e)
+
+![Screenshot_2](https://github.com/kaankaltakkiran/ornekler/assets/98158194/ea93ac5a-7584-4cf3-94dc-b6865515bbe9)
