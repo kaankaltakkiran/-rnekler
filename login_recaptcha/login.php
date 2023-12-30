@@ -134,7 +134,7 @@ INCORRECT EMAIL Or PASSWORD!...
   <span class="input-group-text bg-transparent"><i id="togglePassword" class="bi bi-eye-slash"></i></span>
 </div>
 <div class="form-floating mb-3">
-  //! aldığımız sitekey'i data-sitekey alanına yapıştırıyoruz
+<!--    aldığımız sitekey'i data-sitekey alanına yapıştırıyoruz -->
 <div class="g-recaptcha" data-sitekey="6Lfj4z4pAAAAAIF5lNvjBmZh39iGikjsVVKCE0Tc"></div>
 </div>
 
