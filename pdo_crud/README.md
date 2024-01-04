@@ -4,7 +4,7 @@
 
 ### SQL KOMUTU İLE TABLONUN OLUŞTURULMASI
 
-Aşağıdaki komutları adminer ile MySQL üzerinde çalıştırınız.
+
 
 ```SQL
 DROP TABLE IF EXISTS `users`;
