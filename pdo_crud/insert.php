@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Insert Page</title>
-</head>
-<body>
 <h1>Record Form</h1>
 
 <form method='POST'>
@@ -15,8 +7,7 @@
 </form>
 
 <p><a href='index.php'>Back To Home</a></p>
-</body>
-</html>
+
 <?php
 
 if (isset($_POST['form_sumbit'])) {
