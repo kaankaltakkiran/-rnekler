@@ -2,8 +2,7 @@
 
 ## PDO ile CRUD İşlemleri
 
-### SQL KOMUTU İLE TABLONUN OLUŞTURULMASI
-
+### TABLO
 
 
 ```SQL
