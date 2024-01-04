@@ -2,7 +2,7 @@
 
 ## PDO ile CRUD İşlemleri
 
-### TABLO
+### Database
 
 
 ```SQL
