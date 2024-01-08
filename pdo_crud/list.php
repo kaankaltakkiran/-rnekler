@@ -18,3 +18,13 @@ foreach ($users as $user) {
 echo "<p><a href='index.php'>Back To Home Page</a></p>";
 ?>
 
+<!-- altarnatif -->
+
+<?php
+
+foreach ($users as $user) {
+    ?>
+                  <h1><?php echo $user['username'] ?></h1>
+
+                <?php }?>
+
