@@ -1,2 +1,2 @@
-# Php Mysql ile Form Veri Ekleme
+# Php Mysql 
 Php çalışırken kullandığım örnekler
