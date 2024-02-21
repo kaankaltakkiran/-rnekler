@@ -1,11 +1,11 @@
 # Highcharts
 
 ## Highcharts nasıl kullanılır ?
-Highcharts, web sayfalarında interaktif grafikler oluşturmak için kullanılan bir JavaScript kütüphanesidir. Bu kütüphane, web sayfalarında çeşitli grafikler oluşturmak için kullanılır.
+**Highcharts**, web sayfalarında interaktif grafikler oluşturmak için kullanılan bir JavaScript kütüphanesidir. Bu kütüphane, web sayfalarında çeşitli grafikler oluşturmak için kullanılır.
 
-Kullanımı oldukça kolay ve esnek bir yapıya sahiptir.
+Kullanımı oldukça **kolay** ve **esnek** bir yapıya sahiptir.
 
-Highcharts, grafiğinin olduğu kısımda 3 çizgiye tıkladığımızda bir sürü özellik barınmaktadır. 
+**Highcharts**, grafiğinin olduğu kısımda **3 çizgiye** tıkladığımızda bir sürü özellik barınmaktadır. 
 
 Örneğin, grafiği istersek ful pencere olarak açabiliriz. Bu sayede grafiği daha detaylı inceleyebiliriz. Bu grafiği jpg, png, pdf, svg formatlarında indirebiliriz. Ayırca View data table seçeneği ile grafiğin verilerini tablo halinde görebiliriz. 
 
@@ -13,7 +13,8 @@ Nasıl kullanıldığını öğrenmek için [Highcharts](https://www.highcharts.
 
 Birden çok grafik türü bulunmaktadır. Hangisinin kullanılacağına karar vermek için [demo](https://www.highcharts.com/demo) tıklayabilirsiniz.
 
-example.html içinde html örneği, info.graphic.php içinde ise  php örneği bulunmaktadır.
+
+ > **Note:**  **example.html** içinde html örneği, **info.graphic.php** içinde ise  php örneği bulunmaktadır.
 
 ### Örnek Highcharts resimleri 
 ![alt text](Screenshot_1.png)
