@@ -13,6 +13,8 @@ Nasıl kullanıldığını öğrenmek için [Highcharts](https://www.highcharts.
 
 Birden çok grafik türü bulunmaktadır. Hangisinin kullanılacağına karar vermek için [demo](https://www.highcharts.com/demo) tıklayabilirsiniz.
 
+example.html içinde html örneği, info.graphic.php içinde ise  php örneği bulunmaktadır.
+
 ### Örnek Highcharts resimleri 
 ![alt text](Screenshot_1.png)
 ![alt text](Screenshot_2.png)
