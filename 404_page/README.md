@@ -41,3 +41,6 @@ RewriteRule .* - [L,R=404]: Yukarıdaki koşulların herhangi biri sağlanıyors
 RewriteCond %{THE_REQUEST} ^.*some_file.php.*$ [NC]: İsteğin (THE_REQUEST) içerdiği metni kontrol eder. Burada "some_file.php" metnini arar. [NC] kısmı ise büyük-küçük harf duyarlı olmadığını belirtir.
 
 RewriteRule .* - [L,R=404]: Eğer istek "some_file.php" metnini içeriyorsa, isteği 404 sayfasına yönlendirir.
+
+![Screenshot_4](https://github.com/kaankaltakkiran/ornekler/assets/98158194/f91f4656-6d0e-4f3a-a218-1c58ac5218af)
+
