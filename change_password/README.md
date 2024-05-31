@@ -1,8 +1,7 @@
-﻿# Login And Register with password hash 
+﻿# Php İle Parola Hashleme Örneği
+Php ile kullanıcı üye olma ve giriş yapma işlemlerini içermektedir. Kullanıcı siteye üye olurken parolası hashlenmektedir.
 
- ## Php ile kullanıcı üye olma ve giriş yapma işlemlerini içermektedir. Kullanıcı siteye üye olurken parolası hashlenmektedir.
-
-### password_hash ve password_verify
+## password_hash ve password_verify
  [password_hash](https://www.php.net/manual/en/function.password-hash.php)
  ```php
 password_hash(string $password, string|int|null $algo, array $options = []): string
